@@ -3,11 +3,14 @@ import PropTypes from 'prop-types'
 import Terminal from './Terminal'
 
 const Code = ({ children, ...rest }) => {
-    console.log(props)
+    console.log(children)
   return (
-    <Terminal {...rest} code>
-      {children}
-    </Terminal>
+      <div>
+      TEST TEST TEST
+          <Terminal {...rest} code>
+            {children}
+          </Terminal>
+      </div>
   )
 }
 
