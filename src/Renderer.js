@@ -19,6 +19,7 @@ class Renderer extends React.Component {
         lines: value
       })
       if (done) {
+        console.log('DONE')
         clearInterval(this.timer)
       }
     }, this.props.interval)
