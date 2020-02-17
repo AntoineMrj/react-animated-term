@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Terminal from './Terminal'
 
 const Code = ({ children, ...rest }) => {
+    console.log(props)
   return (
     <Terminal {...rest} code>
       {children}

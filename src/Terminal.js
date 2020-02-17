@@ -9,7 +9,6 @@ const renderLines = lines => {
   return lines.map(line => {
     return (
       <React.Fragment key={line.id}>
-      COUCOU
         {line.cmd ? prompt : ''}
         {line.text}
         {line.current ? cursor : ''}
